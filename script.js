@@ -59,7 +59,7 @@ function showData() {
     }
 }
 
-/* открываем дополнительную информацию, если надо */
+/* открываем/закрываем дополнительную информацию по клику на плюс/минус */
 
 function additionalInfo(className, id) {
     var data = loadData();
