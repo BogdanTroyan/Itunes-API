@@ -51,7 +51,7 @@ function showData() {
     	+ '" style="display:none"><span class="headline">' + JSON.parse(data).results[i].artistName + ' - ' + JSON.parse(data).results[i].trackName 
     	+ '</span><img class="note-icon" src="img/note.svg" ><div class="add-info-row" ><div class="add-info-cell"><b>Collection: </b>' + JSON.parse(data).results[i].collectionName 
     	+ '</div><div class="add-info-cell" ><b>Track duration: </b>' + trackDuration 
-    	+ '</div></div><div class="add-info-row" ><div class="add-info-cell" ><b>Track Count: </b>' + JSON.parse(data).results[i].trackNumber 
+    	+ ' min</div></div><div class="add-info-row" ><div class="add-info-cell" ><b>Track Count: </b>' + JSON.parse(data).results[i].trackNumber 
     	+ '</div><div class="add-info-cell" ><b>Track Price: </b>' + JSON.parse(data).results[i].trackPrice + ' ' + JSON.parse(data).results[i].currency 
     	+ '</div></div><div class="add-info-row" ><div class="add-info-cell" ><b>Price: </b>' + JSON.parse(data).results[i].collectionPrice + ' ' + JSON.parse(data).results[i].currency 
     	+ '</div></div></div>' ;
