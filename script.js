@@ -33,7 +33,7 @@ function showData() {
 	var data = loadData();
 	var li = document.createElement('li');
 	li.className = 'navigation-line';
-	li.innerHTML = '<div class="navigation-artist">Artist</div><div class="navigation-track">Track</div><div class="navigation-collection">Collection</div><div class="navigation-genre">Genre</div>';
+	li.innerHTML = '<div class="empty"></div><div class="navigation-artist">Artist</div><div class="navigation-track">Track</div><div class="navigation-collection">Collection</div><div class="navigation-genre">Genre</div>';
 	list.appendChild(li);
     for (i=0; i<JSON.parse(data).resultCount; i++) {
     	var color = colorGen(i);
