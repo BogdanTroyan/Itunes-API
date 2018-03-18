@@ -97,23 +97,14 @@ div {
 	width: 15%;
 }
 
-.navigation-artist, .navigation-track, .navigation-collection, .navigation-genre {
+.empty, .navigation-artist, .navigation-track, .navigation-collection, .navigation-genre {
 	font-family: Andale Mono, monospace;
 	font-weight: 500;
 	font-size: 120%;
-	width: 13%;
-}
-
-.navigation-artist {
-	padding-left: 370px;
-}
-
-.navigation-track {
-	padding-left: 30px;
-}
-
-.navigation-genre {
-	padding-left: 55px;
+	width: 15%;
+	padding: 3em 0;
+	vertical-align: middle;
+   	text-align: center;
 }
 
 .add-info-row {
